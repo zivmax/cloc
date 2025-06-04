@@ -7,7 +7,6 @@ on:
 
 jobs:
   staging_build:
-    if: ${{ github.event.label.name == 'release-ready' }}
     runs-on: windows-latest
 
     steps:
